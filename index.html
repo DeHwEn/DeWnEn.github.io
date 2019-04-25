@@ -1,59 +1,88 @@
 <!DOCTYPE html>
-<html lang="ko">
-    <head>
-         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            
-        <!-- Bootstrap CSS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    
-            <meta charset="utf-8">
-        <title>The K.S.Jun's Like Lion Projects </title>
-    </head>
+<html>
+<head>
+  
+  <title>Seong Jun's IT Service</title>
+  <link rel="stylesheet" href="SJ-style.css" type="text/css" />
+  <!--BootStrap Style-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-    <body>
+<body>
+  <header>
+  <nav>
+    <div class="topmenu">
+      <ul>
+        <li><a href="index.html" class="menuLink">Home</a></li>
+        <li><a href="ksj.html" class="menuLink">Who is KSJ?</a></li>
+        <li><a href="IntroSer.html" class="menuLink">Introduce Service</a></li>
+        <li><a href="Inquiry.html" class="menuLink">Inquiry</a></li>
+      </ul>
+    </div>
+  </nav>
+<br>
 
-        <!--HTML Documnet Padding-->
-        <div style="padding:30px;">
+<h1 class="index-name">성준이의 IT 서비스</h1>
+</header>
+<!--경계인가..!!치잇!-->
 
-        <div id=Login_Sectino>
-            <h1>The Login</h1> <br>
-            <h4>Please Login And Using Page.</h4><br>
-            ID : <input type="text" + name="ID"><br><br>        
-            PW : <input type="password" + name="Password">
+<!--주 영역 -->
 
-            <br><hr><br color="DARKGRAY">
+ <!--왼쪽 영역-->
+  <section>
 
-              <div class="card text-center">
-                    <div class="card-header">
-                      K.S.Jun's Blog
-                    </div>
-                    <div class="card-body">
-                        <img src="The_Drum.jpg" height="300" width="500">
-                      <h5 class="card-title">멋쟁이 사자처럼 7기 김성준의 블로그입니다!</h5>
-                      <p class="card-text">보안관련, 컴퓨터 관련하여 글포스팅을 합니다!</p>
-                      <a href="https://blog.naver.com/ksj101297" class="btn btn-primary">접소크!</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                      KSJ's Blog
-                    </div>
-                  </div>
-        </div>
-    
+    <!--Start Left box-->
+  <div class='body-left-box'>
+    <!--Start Card-->
+    <div class="card">
+      <div class="card-body">
 
+        <!--All width of Half-->
         
-
+        <!--Login Form Action-->
+        <form action="#" method="POST">
+          <!--Left section In Left Box-->
+          <div class="body-left-box">
+            <input type="text" class="id" placeholder="User ID"><br>
+            <input type="password" class="password" placeholder="User Password">
+            <pre>로그인 정보 저장  <input type="checkbox">
+          </div>
+          <!--Left Section In Left Box End-->
+          <!--Left Section In Right Box-->
+          <div class="body-right-box">
+          <button type="button" class="Login-button">Login</button>
+          </div>
+          <!--Left Section In Right Box End-->
+        </form>
+          <!--Login Form Action End-->
         </div>
-    </body>
-</html>
+        <!--End Card Body-->
+      </div>
+    <!--End Card-->
+    <div class="Likelion">
+    <img src="https://w.namu.la/s/af26928a725a29346cd20abb66669407ecf26188229439d0d45173c3d10b5401137bea34f6c62edb1ace3398f92ed16594c478bc635201edf31f21f85e331e688ca53c1eda46ac3a3eec223262181fc8a2e7a5352180faf03a53fc64220e7ea4"
+     height=50% width=50% src="Likelion" >
+    </div>
+    </div>
+  <!--End left box-->
 
+  </section>
+
+  <!--오른쪽 영역-->
+  <section>
+  <div class="body-right-box">
+    <div class="card" style="width: 100%;">
+      <img src="The_Drum.jpg" class="card-img-top" alt="KSJ's Blog">
+      <div class="card-body">
+        <h5 class="card-title">KSJ의 블로그</h5>
+        <p class="card-text">개발자 김성준의 개인 블로그입니다! 보안정보와 더불어 많이 소개되어있습니다!</p>
+        <a href="https://blog.naver.com/ksj101297" class="btn btn-outline-dark">Go KSJ Blog!!</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+</body>
+
+</html>
