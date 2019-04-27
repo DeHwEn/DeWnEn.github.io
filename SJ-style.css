@@ -170,8 +170,67 @@ p { margin: 0px 40px; }
 	width: 35%;
 }
 .intro_Service{
-	font-size: 25px;
+	font-size: 20px;
 	margin-top: 3%;
-	margin-left: 15%;
+
 	font-family: 'Gugi', cursive;
+	
 }
+#Inquiry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:4%;
+}
+#User_Info{
+	padding-right: 20%;
+}
+.Input{
+margin-right:50px;
+padding-right:30px;
+}
+.Inquiry_text{
+	width: 90%;
+	line-height: 250px;
+	margin: 4%;
+}
+#submit_inq{
+	background:skyblue;
+	color:#fff;
+	border:none;
+	position:relative;
+	height:60px;
+	font-size:1.6em;
+	padding:0 2em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+}
+
+#submit_inq:hover{
+	background:#fff;
+	color:skyblue;
+  }
+
+  #submit_inq:before,#submit_inq:after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background: skyblue;
+	transition:400ms ease all;
+  }
+
+  #submit_inq:after{
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+  }
+  #submit_inq:hover:before, #submit_inq:hover:after{
+	width:100%;
+	transition:800ms ease all;
+  }
+
