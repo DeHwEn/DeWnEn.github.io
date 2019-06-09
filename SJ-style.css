@@ -4,9 +4,19 @@
 	font-weight: 400;
 	src: local('Jua Regular'), local('Jua-Regular'), url(https://fonts.gstatic.com/s/jua/v5/co3KmW9ljjAjdoj5COPT3NGswha8nSm72mkQiB_S3H3ljFIIZUHe7YZaQp_VI6z8.2.woff2) format('woff2');
 	unicode-range: U+d723-d728, U+d72a-d733, U+d735-d748, U+d74a-d74f, U+d752-d753, U+d755-d757, U+d75a-d75f, U+d762-d764, U+d766-d768, U+d76a-d76b, U+d76d-d76f, U+d771-d787, U+d789-d78b, U+d78d-d78f, U+d791-d797, U+d79a, U+d79c, U+d79e-d7a3, U+f900-f909, U+f90b-f92e;
+  
+}
+
+@font-face {
+	font-family: 'Gaegu';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Gaegu Regular'), local('Gaegu-Regular'), url(https://fonts.gstatic.com/s/gaegu/v7/TuGfUVB6Up9NU6ZOyc4xxqgKdTBRWpq2sy8wKnARGTY.2.woff2) format('woff2');
+	unicode-range: U+d723-d728, U+d72a-d733, U+d735-d748, U+d74a-d74f, U+d752-d753, U+d755-d757, U+d75a-d75f, U+d762-d764, U+d766-d768, U+d76a-d76b, U+d76d-d76f, U+d771-d787, U+d789-d78b, U+d78d-d78f, U+d791-d797, U+d79a, U+d79c, U+d79e-d7a3, U+f900-f909, U+f90b-f92e;
   }
 
-html{ background-color: rgba(255, 255, 255, 0.2); }
+html{ background-color: rgba(255, 255, 255, 0.2); margin-bottom: 40px; }
 h3 { margin: 0px 40px; }
 h4 { margin: 0px 40px; }
 hr { margin: 0px 40px; }
@@ -16,6 +26,18 @@ p { margin: 0px 40px; }
 	padding-right: 40px;
 	padding-left:40px;
 	
+}
+
+footer { margin-top: 43%;
+		 z-index: 0;
+		 font-family: 'Gaegu', cursive;
+		 font-size: 10px;
+		}
+
+.banner {
+	margin: 30px;
+	width: 50%;
+	height: 50%;
 }
 
 .topmenu{
@@ -72,6 +94,7 @@ p { margin: 0px 40px; }
 	padding-left:20px;
 	padding-right:40px;
 	margin-top: 5px;
+	margin-bottom: 20px;
 }
 
 .box-left-box {
@@ -118,6 +141,15 @@ p { margin: 0px 40px; }
 	margin-bottom: 10px;
 }
 
+.myfootimg{
+	position: relative;
+	left: 35%;
+	max-width: 27%;
+	max-height: 27%;
+	width: auto;
+	height:auto;
+}
+
 .Notice #Guest-Notice{
 	margin-top: 10px;
 	width:100%;
@@ -130,11 +162,20 @@ p { margin: 0px 40px; }
 }
 
 .Likelion {
+	display: inline;
 	padding-top:10%;
 	padding-left: 15%;
-	width: 150%;
-	height: 150%;
+	position: relative;
+	top: 80px;
+	left: 70px;
+
 }
+
+.card-img-top{
+	width:50%;
+	height: 50%;
+}
+
 .HIST_IMG {
 
 	width:100%;
@@ -176,6 +217,19 @@ p { margin: 0px 40px; }
 	font-family: 'Gugi', cursive;
 	
 }
+
+#the_Lion {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#index_rbox{
+	display: inline;
+	position: relative;
+	left: 80px;
+	z-index: 1;
+}
+
 #Inquiry {
 	display: flex;
 	justify-content: center;
